@@ -1,0 +1,111 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Veterinaria</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{%static 'css\style.css'%}">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body class="color1">
+	<div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+		  <div class="container-fluid">
+				<img src="https://i.pinimg.com/200x150/ed/5f/3a/ed5f3a15d92ba3ac6238a98da42bb01e.jpg" alt="VETERINARIA" width="90" border="0">
+		   		
+		    </a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="https://www.purina-latam.com/ec/purina/nota/cachorros/la-primera-visita-al-veterinario">Visita</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="https://www.paginasamarillas.com.gt/servicios/clinicas-veterinarias">Clinicas</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="https://superpet.com.gt/servicios-veterinarios/">Servicios</a>
+		        </li>
+		      </ul>
+		      <form class="d-flex">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit">Search</button>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+  <div class="row">
+    <div class="col-rem">
+    </div>
+    <div class="col-rem">
+      <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+    	<h2  aling = "center" class="mb-0">
+          <h2 aling = "center" >VETERINARIA</h2>
+      </h2>
+    </div>
+   
+
+    <div class="row">
+		<div class="col-sm-6">					    
+			<div class="card mb-3">
+				<img class="card-img-top" src="https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg" alt="Card image cap">
+  				<div class="card-body">
+    				<h5 class="card-title">Los veterinarios diagnostican y tratan los animales enfermos y heridos. También previenen la enfermedad y la mala salud, por ejemplo, mediante vacunaciones y prestando asesoramiento a los propietarios. Algunos veterinarios se especializan, por ejemplo, en animales domésticos, ganado, caballos y animales de zoológico.</p>
+    				<p class="card-text"><small class="text-muted"></small></p>
+  				</div>
+			</div>
+			</div>
+		<div class="col-sm-6">
+			<div class="card mb-3">
+				<img class="card-img-top" src="https://static.miweb.padigital.es/var/m_3/3e/3ea/56650/854888-clinica-veterinaria-venus-fondo.jpg">
+  				<div class="card-body">
+    				<h5 class="card-title">Los veterinarios diagnostican y tratan los animales usando el conocimiento científico y médico, habilidades prácticas y diversas herramientas y equipos. Lo que más les importa es el bienestar de los animales y la protección de la salud pública.</p>
+    				<p class="card-text"><small class="text-muted"></small></p>
+  				</div>
+			</div>
+		</div>
+	</div>
+
+       <button  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="https://clinicaveterinariamadrid.es/tarifas/" class="color2">
+ 	Precio
+	</button>
+	<button  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ 	<a href="{%url 'WebTarea:Pagina-siguiente'%}" class="color3">Detalles</a>
+	</button>
+		</div>
+    </div>
+  </div>
+  
+  
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<div align="center">
+
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
